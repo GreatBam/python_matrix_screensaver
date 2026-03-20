@@ -13,7 +13,7 @@ def main():
         lines.append(line)
     try:
         while True:
-            for interval in IntervalTimer(0.1):
+            for interval in IntervalTimer(0.03):
                 for line in lines:
                     random.shuffle(lines)
                     line.printLine()
