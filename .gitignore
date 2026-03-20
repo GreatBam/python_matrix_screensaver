@@ -1,0 +1,7 @@
+.venv
+.env
+env
+.tmp
+.bak
+__pycache__
+
